@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 const Header = () => {
+  console.log('debuggin');
   return (
     <View style={headerContainer}>
       <Text style={header}>Cryptocurrency App</Text>
@@ -21,6 +22,6 @@ const styles = StyleSheet.create({
   }
 });
 
-const { header, headerContainer } = styles;
+const { headerContainer, header } = styles;
 
 export default Header;
